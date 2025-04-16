@@ -1,0 +1,246 @@
+@media screen and (min-width:300px) and (max-width:520px) {
+    .parent{
+        width: 100%;
+        box-sizing: border-box;
+    }
+            .navbarcontainer{
+                position: relative;
+                width: 100%;
+                height: 70px;
+                display: flex;
+
+            }
+            .subnavbar{
+                background-color: pink;
+                flex-direction: column;
+                position: absolute;
+                top: 50px;
+                left: -100%;
+                width: 100vw;
+                height: 200px;
+                justify-content: start;
+                align-items: center;
+                gap: 10px;
+                transition: left 1s ease;
+                padding: 20px;
+              top:70px;
+            
+        
+        
+            }
+            .image {
+                width: 50%;
+                height: 70px;
+                display: flex;
+                justify-content: start;
+                align-items: center;
+               
+            }
+            .iconbtn{
+                display: block;
+                width: 50%;
+            
+                display: flex;
+                justify-content: end;
+                padding-right: 30px;
+                
+                
+                
+            }
+            #click{
+                display: none;
+            }
+            #click:checked ~ .subnavbar{
+                left: 0px;
+        
+            }
+            .homecontainer {
+                width: 100%;
+                padding: 30px 20px;
+
+            }
+            .align1 {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+                margin-top: 20px;
+            }
+            .img1 {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                height: 200px;
+            }
+            .hcontent {
+                width: 100%;
+                color: #ffffff;
+                background: rgba(255, 255, 255, 0.2);
+                padding: 20px;
+                border-radius: 10px;
+                backdrop-filter: blur(10px);
+                animation: fadeIn 2s ease-in-out;
+            }
+            .servicecontainer {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                gap: 40px;
+                padding: 20px;
+                background: linear-gradient(to right, #fad0c4, #ff9a9e);
+                box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+                text-align: center;
+                animation: fadeIn 1.5s ease-in-out;
+            }
+            .caredog {
+                width: 300px;
+                /* max-width: 400px; */
+                border-radius: 15px;
+                transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            }
+            .topic2 {
+                color: #5a189a;
+                width: 100%;
+                font-family: "Poppins", sans-serif;
+            }
+            .allpet {
+                position: relative;
+                width: 250px;
+                height: 300px;
+                margin: auto;
+                overflow: hidden;
+              }
+              
+              .petno1 {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                opacity: 0;
+                text-align: center;
+                animation: fadeSlide 9s infinite;
+              }
+              
+              .petno1:nth-child(1) {
+                animation-delay: 0s;
+              }
+              
+              .petno1:nth-child(2) {
+                animation-delay: 3s;
+              }
+              
+              .petno1:nth-child(3) {
+                animation-delay: 6s;
+              }
+              
+              .gallerysize {
+                width: 250px;
+                height: 250px;
+                object-fit: cover;
+                border-radius: 15px;
+                box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+              }
+              
+              .pet-caption {
+                margin-top: 10px;
+                font-size: 1.2rem;
+                font-weight: bold;
+                color: #5a189a;
+              }
+              
+              /* Animation Keyframes */
+              @keyframes fadeSlide {
+                0% {
+                  opacity: 0;
+                  transform: scale(1.1);
+                }
+                5% {
+                  opacity: 1;
+                  transform: scale(1);
+                }
+                30% {
+                  opacity: 1;
+                  transform: scale(1);
+                }
+                35% {
+                  opacity: 0;
+                  transform: scale(0.9);
+                }
+                100% {
+                  opacity: 0;
+                }
+              }
+              
+
+            
+        
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+   
